@@ -1,0 +1,23 @@
+{
+  "name": "svelte-redux",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "svelte": "^3.44.0",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "immer": "^9.0.15",
+    "redux": "^4.2.0",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3"
+  }
+}
